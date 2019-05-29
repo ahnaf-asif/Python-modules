@@ -37,3 +37,16 @@ class stack:
 		#done
 	#done
 #done..
+def main():
+	asif = stack()
+	asif.push(12)
+	asif.push(234)
+	asif.push(5)
+	asif.push(234232334234)
+	print(asif.size())
+	print(asif.top())
+	asif.pop()
+	print(asif.top())
+	asif.clear()
+main()
+
