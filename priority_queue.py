@@ -1,3 +1,6 @@
+from queue import PriorityQueue 
+#make sure this line is in the top of your code 
+
 class priority_queue:
 	def __init__(self):
 		self.__q = PriorityQueue()
