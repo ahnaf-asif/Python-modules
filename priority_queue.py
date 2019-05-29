@@ -27,6 +27,7 @@ class priority_queue:
 		#done
 	#done
 #done
+
 def main():
 	asif = priority_queue()
 	asif.insert(5)
