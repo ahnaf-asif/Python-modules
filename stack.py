@@ -19,10 +19,21 @@ class stack:
 	#done..	
 	def top(self):
 		if(self.size() > 0):
-			return self.__lst[len(self.__lst)-1]
+			return self.__lst[self.__size-1]
 		else:
 			print("Stack has no data\n")
 			sys.exit(-1)
 		#done..
 	#done..
+	def clear(self):
+		self.__lst.clear()
+		__size = 0
+	#done
+	def empty(self):
+		if(__size==0):
+			return 1
+		else:
+			return 0
+		#done
+	#done
 #done..
