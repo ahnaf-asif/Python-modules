@@ -18,6 +18,17 @@ class priority_queue:
 		self.__q.put((x,x))
 		self.__size+=1
 	#done
+	def empty(self):
+		if(self.__size == 0):
+			return 1
+		else:
+			return 0
+		#done
+	#done
+	def clear(self):
+		self.__q.clear()
+		self.__size = 0
+	#done
 	def pop(self):
 		if(self.__size > 0):
 			x = self.__q.get()
