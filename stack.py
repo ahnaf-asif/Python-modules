@@ -1,3 +1,4 @@
+#used to make a stack. just like c++ 
 class stack:
 	def __init__(self):
 		self.__lst = list()
