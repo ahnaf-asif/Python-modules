@@ -10,4 +10,3 @@ $ git push // push the added things in the remote github page
 
 ```
 
-#### End of Instruction
