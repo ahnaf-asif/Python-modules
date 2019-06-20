@@ -175,6 +175,31 @@ print("mapped value of asif is: ", mp["asif"])
 
 ```
 
+**Set:**
+```python
+#in a set, you cann keep only one copy of each values. 
+#so if you insert 10 more than once in a set, the set will kepp only one copy of it
+#here is a simple example of set
+st = set()
+st.add(5)
+st.add(5)
+st.add(10)
+st.add(23)
+st.add(44)
+
+print(st) # it will print like [10,44,5,23]
+
+# though we added 5 2 times, it'll keep only one of them
+#If you are told that "given n numbers, find the number of different numbers"
+#then you can use set there
+
+st.remove(5) #removed the value 5
+
+print(st) #now it will show like [10,44,23]
+```
+We can also use the operations of sets like `Union`,`intersection`,`update` etc just like below:
+
+![sets](pictures/two.png)
 
 **Functions:**
 
