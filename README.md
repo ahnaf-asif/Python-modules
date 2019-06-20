@@ -388,7 +388,30 @@ print(asif.size())
 ara = [2,4,2,1,6,5]
 ara.sort()
 print(ara) #now array is sorted, it will show [1,2,2,4,5,6]
+#now I will show some builtin functions related to maths
 
+import math #just like #include<math.h>
 
+abs(a) #absolute value of a float number. abs(5.55) = 5
+math.ceil(a) #ceiling of a float number, ceil(5.55) = 6
+math.floor(a) #floor of a float number, floor(5.55) = 5
+math.log(a) # e based log of a
+math.log10(a) #10 based log of a
+max(a,b,c,d) #maximum value of a,b,c,d. you can use as many numbers as you can
+min(a,b,c) #minimum value of a,b,c, you can use as many numbers as you can 
+math.sqrt(a) #sqrt of a. sqrt(25) = 5.00
 
+#these angles must be in radian
+math.sin(a)
+math.cos(a)
+math.tan(a)
+math.asin(a) #sin inverse
+math.acos(a) #cos inverse
+math.atan(a) #tan inverse
+math.degrees(r) #convert degree from radian
+math.radian(d) #converts radians from degrees
+
+s = "HelloHello"
+print(s.count('l')) #it will print 4.
+print(s.count("Hell")) # it will print 2
 ```
