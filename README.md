@@ -112,4 +112,19 @@ print(ara2) #here ara2 has the sbstring from 1th index to 4th index
 
 ```
 
+**String:**
 
+```python
+
+a = input() #taken the input of a string
+print(len(a)) #length of string a
+
+b = input() #another string input
+print(len(b)) #printing the length of a 
+
+c = a+b #adding the string. if a = "Hello" and b = "world" then c = "Helloworld"
+d = a*3 #if a = "Hello" then d = "HelloHelloHello"
+
+s = a[2:5] #taken a substring of a from 2th index to 5th index
+
+```
