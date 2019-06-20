@@ -19,6 +19,56 @@ I will try to include all the possible shortcuts and other stuff here.
 a,b,c = map(int,input().split())
 a,b,c = map(float,input().split())
 ```
+**Comditional Logic:**
+
+```python
+if(statement):
+	#this is inside if() condition
+	#this is also inside if() condition
+	#this is also inside if() condition
+elif(another_statement):
+	#this is inside elif() condition
+	#this is inside elif() condition
+else:
+	#this is inside the else condition
+	#do whatever you want to do.. 
+
+#now we will see some conditional operators 
+
+#conditional and operators
+a = 3
+b = 3
+if(a == b and a+b == 6):
+	print("Hello")
+# it will print "Hello"
+
+#conditional or operator
+
+a = 4
+b = 2
+if(a+b == 6 or a==b):
+	print("Hello")
+#it will print "Hello"
+
+```
+
+
+**Loops:**
+
+
+```python
+#for loop...
+for i in range(x,y):
+	#do whatever you want
+	# i will iterate from x to y-1
+	# all lines indented here will be inside the for loop
+# while loop
+
+i = 0
+while(i <= 10):
+	print(i) # It will print from 0 to 10. So try to undarstand what's happening
+```
+
 
 **Different methods to work with Array/Lists:**
 
