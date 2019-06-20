@@ -2,6 +2,18 @@
 
 I will try to include all the possible shortcuts and other stuff here. 
 
+```python
+#this is just for me, nigga. You guys don't need to know what it is:
+import math
+import sys
+import random
+
+sys.stdin = open("in.txt","r")
+sys.stdout = open("out.txt","w")
+
+```
+### Rest of the things are for everyone.....
+
 **Arithmetic operations:**
 
 `+ , - , *, /` are literally addition,subtraction, multiplication,division. and `a**b` means `a^b` (a to the power b) and `a//b` means the integer division of `a/b`
