@@ -236,3 +236,159 @@ def factorial(a):
 print(factorial(5)) #it will show 120 because 1*2*3*4*5 = 120
 
 ```
+
+**Stack:**
+```python
+#used to make a stack. just like c++ 
+class stack:
+	def __init__(self):
+		self.__lst = list()
+		self.__size = 0
+	#done...
+	def push(self,number):
+		self.__lst.append(number)
+		self.__size+=1
+		return
+	#done..
+	def pop(self):
+		if(self.__size >= 1):
+			self.__lst.pop()
+			self.__size-=1
+		#done..
+	#done..
+	def size(self):
+		return self.__size
+	#done..	
+	def top(self):
+		if(self.size() > 0):
+			return self.__lst[self.__size-1]
+		else:
+			print("Stack has no data\n")
+			sys.exit(-1)
+		#done..
+	#done..
+	def clear(self):
+		self.__lst.clear()
+		__size = 0
+	#done
+	def empty(self):
+		if(__size==0):
+			return 1
+		else:
+			return 0
+		#done
+	#done
+#done..
+asif = stack()
+asif.push(12)
+asif.push(234)
+asif.push(5)
+asif.push(234232334234)
+print(asif.size())
+print(asif.top())
+asif.pop()
+print(asif.top())
+asif.clear()
+```
+
+**Queue:**
+
+```python
+import queue 
+  
+# From class queue, Queue is 
+# created as an object Now L 
+# is Queue of a maximum  
+# capacity of 20 
+L = queue.Queue(maxsize=20) 
+  
+# Data is inserted into Queue 
+# using put() Data is inserted 
+# at the end 
+L.put(5) 
+L.put(9) 
+L.put(1) 
+L.put(7) 
+  
+# get() takes data out from 
+# the Queue from the head  
+# of the Queue 
+print(L.get()) 
+print(L.get()) 
+print(L.get()) 
+print(L.get()) 
+```
+
+**Priority Queue:**
+```python
+from queue import PriorityQueue 
+#make sure this line is in the top of your code 
+
+class priority_queue:
+	def __init__(self):
+		self.__q = PriorityQueue()
+		self.__size = 0
+	#done
+	def size(self):
+		return self.__size
+	#done
+	def front(self):
+		x = self.__q.get()
+		self.__q.put(x)
+		return x[0]
+	#done
+	def insert(self,x):
+		self.__q.put((x,x))
+		self.__size+=1
+	#done
+	def empty(self):
+		if(self.__size == 0):
+			return 1
+		else:
+			return 0
+		#done
+	#done
+	def clear(self):
+		self.__q.clear()
+		self.__size = 0
+	#done
+	def pop(self):
+		if(self.__size > 0):
+			x = self.__q.get()
+			self.__size-=1;
+			del x
+			return
+		else:
+			print("Queue has no data")
+			sys.exit(-1)
+		#done
+	#done
+#done
+asif = priority_queue()
+asif.insert(5)
+asif.insert(4)
+asif.insert(5)
+asif.insert(7)
+asif.insert(1)
+
+print(asif.front())
+asif.pop()
+print(asif.front())
+print(asif.size())
+```
+
+**Some builtin functions:**
+
+```python
+#there are lots of builtin functions in python. I am mentioning here the most important functions
+#you can download and open the python_tutorial book. It is in my github page
+#you will find a lot of builtin functions there 
+
+#sorting array
+ara = [2,4,2,1,6,5]
+ara.sort()
+print(ara) #now array is sorted, it will show [1,2,2,4,5,6]
+
+
+
+```
