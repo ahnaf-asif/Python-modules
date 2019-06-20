@@ -155,3 +155,39 @@ print(matrix) # just printing it to make sure everything works fine there
 
 
 ```
+
+**Functions:**
+
+```python
+#I'll write some simple functions here. make sure you understand everything here:
+#it is the main structure of a function-->
+def function_name(parameters):
+	#do whatever you want
+	#do something else if you nedd to
+	#do something again..
+	#keep doing, keep working
+	return something #if you don't want to return, simply don't return something. It'll be fine 
+
+#function ended
+#simple addition function 
+
+def add(a,b):
+	c = a+b
+	return c
+
+x = 5
+y = 4
+
+z = add(x,y)
+print(z) # here z will show 9, sum of 5 and 4
+
+# you can also write recursive functions like that 
+def factorial(a):
+	if(a == 1):
+		return 1
+	return a*factorial(a-1)
+
+
+print(factorial(5)) #it will show 120 because 1*2*3*4*5 = 120
+
+```
