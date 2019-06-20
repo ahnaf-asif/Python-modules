@@ -46,4 +46,4 @@ n = int(input())
 a = [[int(j) for j in input().split()] for i in range(n)]
 ```
 
-![hudai](one.png)
+![hudai](pictures/one.png)
