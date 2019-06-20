@@ -19,7 +19,7 @@ I will try to include all the possible shortcuts and other stuff here.
 a,b,c = map(int,input().split())
 a,b,c = map(float,input().split())
 ```
-**Comditional Logic:**
+**Conditional Logic:**
 
 ```python
 if(statement):
