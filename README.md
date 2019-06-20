@@ -156,6 +156,26 @@ print(matrix) # just printing it to make sure everything works fine there
 
 ```
 
+**map/Dictionary:**
+
+```python
+#this is how we can map a string with some values 
+#this can be important sometimes
+#because working with strings are complicated, they are slow
+#instead, we can simply use the mapped values
+mp = dict()
+
+#it also can be declared just like this --> mp = {}
+
+
+mp["asif"] = 5;
+mp["tata"] = 55;
+
+print("mapped value of asif is: ", mp["asif"])
+
+```
+
+
 **Functions:**
 
 ```python
