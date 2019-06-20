@@ -128,3 +128,30 @@ d = a*3 #if a = "Hello" then d = "HelloHelloHello"
 s = a[2:5] #taken a substring of a from 2th index to 5th index
 
 ```
+
+**2D array:**
+```python
+#here is an example of 2d array with size n*m
+#initializing the "matrix" array first. 
+
+matrix = []
+n = 2
+m = 3
+
+for i in range(0,n):
+    matrix.append([])
+    for j in range(0,m):
+        matrix[i].append(0)
+
+#initialization completed
+#Now we will take the input and append the matrix just like this:
+ara = list()
+for i in range(0,n):
+	ara = list(map(int,input().split()))
+	for j in range(0,m):
+		matrix[i][j] = ara[j]
+
+print(matrix) # just printing it to make sure everything works fine there
+
+
+```
