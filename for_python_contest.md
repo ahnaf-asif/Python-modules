@@ -152,7 +152,7 @@ len(st)
 st.clear()
 ```
 
-**Dictionary:**
+**Deque:**
 
 ```Python
 import collections 
